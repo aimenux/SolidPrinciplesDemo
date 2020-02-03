@@ -1,4 +1,6 @@
-﻿namespace App.Ocp.Good.Services
+﻿using App.Ocp.Good.Models;
+
+namespace App.Ocp.Good.Services
 {
     public interface IShoppingService
     {

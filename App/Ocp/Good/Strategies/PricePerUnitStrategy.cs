@@ -1,4 +1,5 @@
-﻿using App.Ocp.Good.Services;
+﻿using App.Ocp.Good.Models;
+using App.Ocp.Good.Services;
 
 namespace App.Ocp.Good.Strategies
 {

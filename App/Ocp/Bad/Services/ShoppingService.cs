@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using App.Ocp.Bad.Models;
 
 namespace App.Ocp.Bad.Services
 {
@@ -45,23 +46,5 @@ namespace App.Ocp.Bad.Services
             }
             return total;
         }
-    }
-
-    public class Item
-    {
-        public int Quantity { get; set; }
-        public ItemType Type { get; set; }
-    }
-
-    public enum ItemType
-    {
-        // Price per unit
-        Each,
-
-        // Price per unit of weight, such as price per kilogram
-        Weight,
-
-        // Special discount price : buy 3, get 1 for free
-        Special
     }
 }

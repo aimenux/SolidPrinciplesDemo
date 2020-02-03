@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using App.Extensions;
+using App.Ocp.Bad.Models;
 using App.Ocp.Bad.Services;
 
 namespace App.Ocp.Bad
@@ -11,6 +12,17 @@ namespace App.Ocp.Bad
         {
             ConsoleColor.Red.WriteLine(nameof(OcpBadExample));
 
+            var shoppingService = new ShoppingService();
+            foreach (var item in GetItems())
+            {
+                shoppingService.AddItem(item);
+            }
+            var total = shoppingService.GetTotalAmount();
+            Console.WriteLine($"Total = {total}");
+        }
+
+        private static IEnumerable<Item> GetItems()
+        {
             var items = new List<Item>
             {
                 new Item
@@ -29,13 +41,8 @@ namespace App.Ocp.Bad
                     Type = ItemType.Special
                 }
             };
-            var shoppingService = new ShoppingService();
-            foreach (var item in items)
-            {
-                shoppingService.AddItem(item);
-            }
-            var total = shoppingService.GetTotalAmount();
-            Console.WriteLine($"Total = {total}");
+
+            return items;
         }
     }
 }

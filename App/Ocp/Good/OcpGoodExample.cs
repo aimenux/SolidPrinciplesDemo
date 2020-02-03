@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using App.Extensions;
+using App.Ocp.Good.Models;
 using App.Ocp.Good.Services;
 
 namespace App.Ocp.Good
@@ -11,6 +12,18 @@ namespace App.Ocp.Good
         {
             ConsoleColor.Green.WriteLine(nameof(OcpGoodExample));
 
+            var priceService = new PriceService();
+            var shoppingService = new ShoppingService(priceService);
+            foreach (var item in GetItems())
+            {
+                shoppingService.AddItem(item);
+            }
+            var total = shoppingService.GetTotalAmount();
+            Console.WriteLine($"Total = {total}");
+        }
+
+        private static IEnumerable<Item> GetItems()
+        {
             var items = new List<Item>
             {
                 new Item
@@ -29,14 +42,8 @@ namespace App.Ocp.Good
                     Type = ItemType.Special
                 }
             };
-            var priceService = new PriceService();
-            var shoppingService = new ShoppingService(priceService);
-            foreach (var item in items)
-            {
-                shoppingService.AddItem(item);
-            }
-            var total = shoppingService.GetTotalAmount();
-            Console.WriteLine($"Total = {total}");
+
+            return items;
         }
     }
 }

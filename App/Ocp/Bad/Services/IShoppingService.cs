@@ -1,4 +1,6 @@
-﻿namespace App.Ocp.Bad.Services
+﻿using App.Ocp.Bad.Models;
+
+namespace App.Ocp.Bad.Services
 {
     public interface IShoppingService
     {

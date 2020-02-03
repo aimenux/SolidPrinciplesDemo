@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using App.Ocp.Good.Models;
 using App.Ocp.Good.Strategies;
 
 namespace App.Ocp.Good.Services

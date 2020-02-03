@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using App.Ocp.Good.Models;
 
 namespace App.Ocp.Good.Services
 {
@@ -23,23 +24,5 @@ namespace App.Ocp.Good.Services
         {
             return _items.Sum(item => _priceService.ComputePrice(item));
         }
-    }
-
-    public class Item
-    {
-        public int Quantity { get; set; }
-        public ItemType Type { get; set; }
-    }
-
-    public enum ItemType
-    {
-        // Price per unit
-        Each,
-
-        // Price per unit of weight, such as price per kilogram
-        Weight,
-
-        // Special discount prices: buy 3, get 1 for free
-        Special
     }
 }
