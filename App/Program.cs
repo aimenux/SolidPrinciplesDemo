@@ -1,4 +1,7 @@
 ﻿using System;
+using App.Extensions;
+using App.Ocp.Bad;
+using App.Ocp.Good;
 using App.Srp.Bad;
 using App.Srp.Good;
 
@@ -8,13 +11,13 @@ namespace App
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(nameof(SrpBad));
-            SrpBad.Example();
+            SrpBadExample.Run();
+            SrpGoodExample.Run();
 
-            Console.WriteLine(nameof(SrpGood));
-            SrpGood.Example();
+            OcpBadExample.Run();
+            OcpGoodExample.Run();
 
-            Console.WriteLine("Press any key to exit program ..");
+            ConsoleColor.Yellow.WriteLine("Press any key to exit program ..");
             Console.ReadKey();
         }
     }

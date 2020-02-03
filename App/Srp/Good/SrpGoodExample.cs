@@ -1,14 +1,18 @@
-﻿using App.Srp.Good.Notifiers;
+﻿using System;
+using App.Extensions;
+using App.Srp.Good.Notifiers;
 using App.Srp.Good.Repositories;
 using App.Srp.Good.Services;
 using App.Srp.Good.Validators;
 
 namespace App.Srp.Good
 {
-    public static class SrpGood
+    public static class SrpGoodExample
     {
-        public static void Example()
+        public static void Run()
         {
+            ConsoleColor.Green.WriteLine(nameof(SrpGoodExample));
+
             var validator = new UserValidator();
             var repository = new UserRepository();
             var notifier = new UserNotifier();
