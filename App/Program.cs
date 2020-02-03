@@ -1,5 +1,7 @@
 ﻿using System;
 using App.Extensions;
+using App.ISP.Bad;
+using App.ISP.Good;
 using App.LSP.Bad;
 using App.LSP.Good;
 using App.OCP.Bad;
@@ -21,6 +23,9 @@ namespace App
 
             LspBadExample.Run();
             LspGoodExample.Run();
+
+            IspBadExample.Run();
+            IspGoodExample.Run();
 
             ConsoleColor.Yellow.WriteLine("Press any key to exit program ..");
             Console.ReadKey();
