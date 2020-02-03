@@ -1,4 +1,6 @@
 ﻿using System;
+using App.DIP.Bad;
+using App.DIP.Good;
 using App.Extensions;
 using App.ISP.Bad;
 using App.ISP.Good;
@@ -26,6 +28,9 @@ namespace App
 
             IspBadExample.Run();
             IspGoodExample.Run();
+
+            DipBadExample.Run();
+            DipGoodExample.Run();
 
             ConsoleColor.Yellow.WriteLine("Press any key to exit program ..");
             Console.ReadKey();
