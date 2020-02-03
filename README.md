@@ -14,7 +14,7 @@ Solid principles examples
 >
 > **(3)** LSP : Liskov Substitution Principle
 >>
->> `if class A is a subtype of class B, then we should be able to replace B with A without disrupting the behavior of the program.`
+>> `If class A is a subtype of class B, then we should be able to replace B with A without disrupting the behavior of the program.`
 >
 > **(4)** ISP : Interface Segregation Principle
 >>
