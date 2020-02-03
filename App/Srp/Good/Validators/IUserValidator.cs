@@ -1,4 +1,4 @@
-﻿namespace App.Srp.Good.Validators
+﻿namespace App.SRP.Good.Validators
 {
     public interface IUserValidator
     {

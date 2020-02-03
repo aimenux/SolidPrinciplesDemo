@@ -1,11 +1,11 @@
 ﻿using System;
 using App.Extensions;
-using App.Srp.Good.Notifiers;
-using App.Srp.Good.Repositories;
-using App.Srp.Good.Services;
-using App.Srp.Good.Validators;
+using App.SRP.Good.Notifiers;
+using App.SRP.Good.Repositories;
+using App.SRP.Good.Services;
+using App.SRP.Good.Validators;
 
-namespace App.Srp.Good
+namespace App.SRP.Good
 {
     public static class SrpGoodExample
     {

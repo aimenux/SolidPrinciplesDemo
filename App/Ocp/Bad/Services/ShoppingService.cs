@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using App.Ocp.Bad.Models;
+using App.OCP.Bad.Models;
 
-namespace App.Ocp.Bad.Services
+namespace App.OCP.Bad.Services
 {
     public class ShoppingService : IShoppingService
     {

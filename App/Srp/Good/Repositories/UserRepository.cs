@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace App.Srp.Good.Repositories
+namespace App.SRP.Good.Repositories
 {
     public class UserRepository : IUserRepository
     {

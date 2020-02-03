@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace App.Srp.Good.Notifiers
+namespace App.SRP.Good.Notifiers
 {
     public class UserNotifier : IUserNotifier
     {

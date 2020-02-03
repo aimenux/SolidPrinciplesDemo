@@ -1,4 +1,4 @@
-﻿namespace App.Srp.Bad.Services
+﻿namespace App.SRP.Bad.Services
 {
     public interface IRegisterService
     {

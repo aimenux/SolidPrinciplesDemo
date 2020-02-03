@@ -1,8 +1,8 @@
-﻿using App.Srp.Good.Notifiers;
-using App.Srp.Good.Repositories;
-using App.Srp.Good.Validators;
+﻿using App.SRP.Good.Notifiers;
+using App.SRP.Good.Repositories;
+using App.SRP.Good.Validators;
 
-namespace App.Srp.Good.Services
+namespace App.SRP.Good.Services
 {
     public class RegisterService : IRegisterService
     {

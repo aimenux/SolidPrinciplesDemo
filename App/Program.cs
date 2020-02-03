@@ -1,9 +1,11 @@
 ﻿using System;
 using App.Extensions;
-using App.Ocp.Bad;
-using App.Ocp.Good;
-using App.Srp.Bad;
-using App.Srp.Good;
+using App.LSP.Bad;
+using App.LSP.Good;
+using App.OCP.Bad;
+using App.OCP.Good;
+using App.SRP.Bad;
+using App.SRP.Good;
 
 namespace App
 {
@@ -16,6 +18,9 @@ namespace App
 
             OcpBadExample.Run();
             OcpGoodExample.Run();
+
+            LspBadExample.Run();
+            LspGoodExample.Run();
 
             ConsoleColor.Yellow.WriteLine("Press any key to exit program ..");
             Console.ReadKey();

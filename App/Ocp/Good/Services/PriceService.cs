@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using App.Ocp.Good.Models;
-using App.Ocp.Good.Strategies;
+using App.OCP.Good.Models;
+using App.OCP.Good.Strategies;
 
-namespace App.Ocp.Good.Services
+namespace App.OCP.Good.Services
 {
     public class PriceService : IPriceService
     {

@@ -1,4 +1,4 @@
-﻿namespace App.Srp.Good.Repositories
+﻿namespace App.SRP.Good.Repositories
 {
     public interface IUserRepository
     {

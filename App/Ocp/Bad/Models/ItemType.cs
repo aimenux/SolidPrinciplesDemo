@@ -1,4 +1,4 @@
-﻿namespace App.Ocp.Bad.Models
+﻿namespace App.OCP.Bad.Models
 {
     public enum ItemType
     {

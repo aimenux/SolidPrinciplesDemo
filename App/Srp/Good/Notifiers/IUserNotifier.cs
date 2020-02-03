@@ -1,4 +1,4 @@
-﻿namespace App.Srp.Good.Notifiers
+﻿namespace App.SRP.Good.Notifiers
 {
     public interface IUserNotifier
     {

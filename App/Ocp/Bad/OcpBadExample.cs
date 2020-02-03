@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using App.Extensions;
-using App.Ocp.Bad.Models;
-using App.Ocp.Bad.Services;
+using App.OCP.Bad.Models;
+using App.OCP.Bad.Services;
 
-namespace App.Ocp.Bad
+namespace App.OCP.Bad
 {
     public static class OcpBadExample
     {

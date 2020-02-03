@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace App.Srp.Bad.Services
+namespace App.SRP.Bad.Services
 {
     public class RegisterService : IRegisterService
     {

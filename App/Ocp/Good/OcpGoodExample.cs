@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using App.Extensions;
-using App.Ocp.Good.Models;
-using App.Ocp.Good.Services;
+using App.OCP.Good.Models;
+using App.OCP.Good.Services;
 
-namespace App.Ocp.Good
+namespace App.OCP.Good
 {
     public static class OcpGoodExample
     {

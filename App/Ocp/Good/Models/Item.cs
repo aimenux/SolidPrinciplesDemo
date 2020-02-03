@@ -1,6 +1,4 @@
-﻿using App.Ocp.Good.Services;
-
-namespace App.Ocp.Good.Models
+﻿namespace App.OCP.Good.Models
 {
     public class Item
     {

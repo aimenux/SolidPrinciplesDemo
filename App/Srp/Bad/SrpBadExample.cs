@@ -1,8 +1,8 @@
 ﻿using System;
 using App.Extensions;
-using App.Srp.Bad.Services;
+using App.SRP.Bad.Services;
 
-namespace App.Srp.Bad
+namespace App.SRP.Bad
 {
     public static class SrpBadExample
     {

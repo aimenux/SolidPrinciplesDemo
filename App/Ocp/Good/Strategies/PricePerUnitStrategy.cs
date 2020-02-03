@@ -1,7 +1,6 @@
-﻿using App.Ocp.Good.Models;
-using App.Ocp.Good.Services;
+﻿using App.OCP.Good.Models;
 
-namespace App.Ocp.Good.Strategies
+namespace App.OCP.Good.Strategies
 {
     public class PricePerUnitStrategy : IPriceStrategy
     {
