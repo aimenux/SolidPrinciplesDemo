@@ -1,3 +1,4 @@
+![.NET Core](https://github.com/aimenux/SolidPrinciplesDemo/workflows/.NET%20Core/badge.svg)
 # SolidPrinciplesDemo
 ```
 Solid principles examples
