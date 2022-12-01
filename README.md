@@ -1,4 +1,5 @@
 ![.NET Core](https://github.com/aimenux/SolidPrinciplesDemo/workflows/.NET%20Core/badge.svg)
+
 # SolidPrinciplesDemo
 ```
 Solid principles examples
@@ -27,4 +28,4 @@ Solid principles examples
 >> `High level modules should not depend on low level modules; both should depend on abstractions.`
 >> `Abstractions should not depend on details. Details should depend upon abstractions.`
 
-**`Tools`** : vs19, net core 3.1
+**`Tools`** : vs22, .net6
