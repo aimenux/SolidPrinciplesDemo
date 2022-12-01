@@ -1,4 +1,4 @@
-![.NET Core](https://github.com/aimenux/SolidPrinciplesDemo/workflows/.NET%20Core/badge.svg)
+[![.NET](https://github.com/aimenux/SolidPrinciplesDemo/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/aimenux/SolidPrinciplesDemo/actions/workflows/ci.yml)
 
 # SolidPrinciplesDemo
 ```
