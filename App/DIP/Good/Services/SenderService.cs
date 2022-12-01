@@ -5,18 +5,18 @@ namespace App.DIP.Good.Services
 {
     public class SenderService : ISenderService
     {
-        private readonly ICollection<IMessage> _messages;
+        private readonly ICollection<IChannel> _channels;
 
-        public SenderService(ICollection<IMessage> messages)
+        public SenderService(ICollection<IChannel> channels)
         {
-            _messages = messages;
+            _channels = channels;
         }
 
         public void Send()
         {
-            foreach(var message in _messages)
+            foreach (var channel in _channels)
             {
-                message.SendMessage();
+                channel.SendMessage();
             }
         }
     }

@@ -2,7 +2,7 @@
 
 namespace App.DIP.Good.Models
 {
-    public class Sms : IMessage
+    public class Sms : IChannel
     {
         public string PhoneNumber { get; set; }
         public string Message { get; set; }

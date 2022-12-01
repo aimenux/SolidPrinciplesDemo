@@ -2,7 +2,7 @@
 
 namespace App.DIP.Good.Models
 {
-    public class Email : IMessage
+    public class Email : IChannel
     {
         public string ToAddress { get; set; }
         public string Subject { get; set; }

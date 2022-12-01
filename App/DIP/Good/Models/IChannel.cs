@@ -1,6 +1,6 @@
 ﻿namespace App.DIP.Good.Models
 {
-    public interface IMessage
+    public interface IChannel
     {
         void SendMessage();
     }

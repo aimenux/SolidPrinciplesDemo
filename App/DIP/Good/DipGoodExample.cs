@@ -12,7 +12,7 @@ namespace App.DIP.Good
         {
             ConsoleColor.Red.WriteLine(nameof(DipGoodExample));
 
-            var messages = new List<IMessage>
+            var messages = new List<IChannel>
             {
                 new Sms(),
                 new Email()
